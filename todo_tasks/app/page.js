@@ -48,6 +48,77 @@ const HomePage = () => {
               </button>
             </div>
           </form>
+
+          {/* Starting of Table format to display data */}
+          <div className="mt-10">
+            <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+              <thead className="text-sm uppercase bg-slate-400 text-white">
+                <tr>
+                  <th scope="col" className="px-6 py-3">
+                    ID
+                  </th>
+                  <th scope="col" className="px-6 py-3">
+                    Title
+                  </th>
+                  <th scope="col" className="px-6 py-3">
+                    Description
+                  </th>
+                  <th scope="col" className="px-6 py-3">
+                    Status
+                  </th>
+                  <th scope="col" className="px-6 py-3">
+                    Action
+                  </th>
+                  <th scope="col" className="px-6 py-3">
+                    Remove
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="col" className="px-6 py-3">
+                    01
+                  </th>
+                  <th scope="col" className="px-6 py-3">
+                    shiva
+                  </th>
+                  <th scope="col" className="px-6 py-3">
+                    chouhan
+                  </th>
+                  <th scope="col" className="px-6 py-3">
+                    pending
+                  </th>
+                  <th scope="col" className="px-6 py-3">
+                    action required
+                  </th>
+                  <th scope="col" className="px-6 py-3">
+                    Delete
+                  </th>
+                </tr>
+                <tr>
+                  <th scope="col" className="px-6 py-3">
+                    02
+                  </th>
+                  <th scope="col" className="px-6 py-3">
+                    ketan
+                  </th>
+                  <th scope="col" className="px-6 py-3">
+                    soni
+                  </th>
+                  <th scope="col" className="px-6 py-3">
+                    pending
+                  </th>
+                  <th scope="col" className="px-6 py-3">
+                    action required
+                  </th>
+                  <th scope="col" className="px-6 py-3">
+                    Delete
+                  </th>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          {/* Ending of Table format to display data */}
         </div>
       </div>
     </>
